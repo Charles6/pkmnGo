@@ -1,0 +1,105 @@
+body{
+	background-image: url("../assets/pkmn.jpg");
+		text-align: center;
+
+}
+
+div.space{
+	display: inline-block;
+}
+
+/*#newtop{
+	opacity: 0;
+}*/
+
+#wrapper{
+	position: fixed;
+	height: 600px;
+	width: 800px;
+	margin-left: -350px;
+	margin-bottom: -600px;
+	display: inline-block;
+	z-index: -1;
+	transition: 1s;
+}
+
+#middleLane{
+
+	height: 600px;
+	width: 100px;
+}
+
+#bottomButton{
+	margin-top: 500px;
+	width: 100px;
+	height: 100px;
+	transition: 0.3s;
+}
+
+#bottomButton2{
+	margin-top: -100px;
+	width: 100px;
+	height: 100px;
+	transition: 0.3s;
+}
+
+#leftButton{
+	margin-top: -100px;
+	width: 100px;
+	height: 100px;
+	transition: 0.3s;
+}
+
+#rightButton{
+	margin-top: -100px;
+	width: 100px;
+	height: 100px;
+	transition: 0.3s;
+}
+
+
+#start{
+
+}
+
+#topButton{
+/*	margin-left: -452px;*/
+	position: fixed;
+	margin-top: 500px;
+	width: 100px;
+	height: 100px;
+	transition: 0.3s;
+}
+
+#pokeTop{
+	width: 96px;
+	height: 48px;
+/*	display: inline-block;*/
+	margin-left: -6px;
+	margin-top: -32px;
+	border-top-left-radius: 48px;
+	border-top-right-radius: 48px;
+	background-color: red; 
+}
+#pokeButton{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin-top: -13px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: white;
+	background-color: gray;
+
+}
+
+.buttons{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: black;
+
+}
